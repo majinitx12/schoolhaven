@@ -6,7 +6,7 @@ const app = express()
 const proxy = new Corrosion({
     prefix: "/service/",
     codec: "xor",
-    title: "Rusty",
+    title: "penguin",
     forceHttps: true,
     requestMiddleware: [
         Corrosion.middleware.blacklist([
